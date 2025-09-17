@@ -1,0 +1,12 @@
+black
+pre-commit
+isort
+flake8
+mypy
+django-stubs
+mypy-extensions
+typing-extensions
+flake8-bugbear
+flake8-comprehensions
+flake8-bandit
+djangorestframework-stubs

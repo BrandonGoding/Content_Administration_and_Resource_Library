@@ -1,0 +1,19 @@
+[tool.black]
+target-version = ["py311"]
+line-length = 100
+exclude = '''
+/(
+  \.git
+| \.mypy_cache
+| \.venv
+| build
+| dist
+| migrations
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
+known_first_party = ["core", "software_maine"]            # replace with your top-level package(s)
+skip = ["migrations", ".venv"]

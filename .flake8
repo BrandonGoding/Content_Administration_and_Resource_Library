@@ -1,0 +1,12 @@
+[flake8]
+max-line-length = 100
+extend-ignore = E203,W503
+exclude =
+    .git,
+    __pycache__,
+    .mypy_cache,
+    .venv,
+    migrations
+select = B,B9,C,E,F,W
+per-file-ignores =
+    __init__.py:F401,F403
