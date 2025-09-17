@@ -27,6 +27,9 @@ INSTALLED_APPS = [
     "wagtail.search",
     "wagtail.admin",
     "wagtail",
+    "ui_theme",
+    "tailwind",
+    "wagtail.contrib.settings",
     "modelcluster",
     "taggit",
 ]
@@ -100,3 +103,5 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 10_000
 WAGTAIL_SITE_NAME = "Content Administration and Resource Library"
 WAGTAILADMIN_BASE_URL = "https://carl.softwaremaine.com"
 WAGTAILDOCS_EXTENSIONS = ["pdf"]
+
+TAILWIND_APP_NAME = "ui_theme"

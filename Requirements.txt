@@ -1,2 +1,3 @@
 Django
 wagtail
+django-tailwind
